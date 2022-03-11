@@ -111,11 +111,13 @@ In the cargo.toml, you can set up a `[dev-dependencies]` for speicifc testing fr
 To set up project hierarchies
 
 Project Strucuture:
+```
 -> src
 -->lib.rs
 --> one
 ----> mod.rs
 ----> two.rs
+```
 
 To import functions, they must be public first in the `mod.rs` file in this exmaple. So, in `lib.rs`
 ```
