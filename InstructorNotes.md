@@ -2,8 +2,26 @@
 
 For printing more info on variables, use `println!("{:?}", variable)`, instead of `println!("{}", variable)`
 
-Cloning, or calling `malloc` at anytime is VERY expensive. Wrapping a passed variable in a new generic struct can be a 0-cost way of handling borrowing and ownership. 
+Cloning, or calling `malloc` at anytime is VERY expensive. 
+
+Wrapping a passed variable in a new generic box struct can be a 0-cost way of handling borrowing and ownership. You can mutate a variable and then pass it back this way. 
 ```
+enum Expression {
+  Add(Box<Expression>, Box<Expression>)
+}
+
+fn box_me(bytes: &[u8]) -> Box<[u8]> {
+  let bytes = [1, 2, 3, 4];
+  let mut b = Box::new(bytes);
+  b[1] = 100;
+  b
+}
+
+
+fn main() {
+  let b = box_me(&[1, 2, 3]);
+  println!("{}", b[1]);
+}
 
 ```
 
