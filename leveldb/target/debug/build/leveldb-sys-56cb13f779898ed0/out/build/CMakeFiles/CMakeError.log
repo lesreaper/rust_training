@@ -1,0 +1,169 @@
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0ec5/fast && /usr/bin/make -f CMakeFiles/cmTC_b0ec5.dir/build.make CMakeFiles/cmTC_b0ec5.dir/build
+make[1]: Entering directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0ec5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=crc32c_value   -std=c11 -o CMakeFiles/cmTC_b0ec5.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.15.3-Linux-x86_64/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0ec5
+/opt/cmake-3.15.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0ec5.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=crc32c_value    CMakeFiles/cmTC_b0ec5.dir/CheckFunctionExists.c.o  -o cmTC_b0ec5 -lcrc32c 
+/usr/bin/ld: cannot find -lcrc32c
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b0ec5.dir/build.make:87: cmTC_b0ec5] Error 1
+make[1]: Leaving directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b0ec5/fast] Error 2
+
+
+
+Determining if the function malloc exists in the tcmalloc failed with the following output:
+Change Dir: /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac809/fast && /usr/bin/make -f CMakeFiles/cmTC_ac809.dir/build.make CMakeFiles/cmTC_ac809.dir/build
+make[1]: Entering directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac809.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=malloc   -std=c11 -o CMakeFiles/cmTC_ac809.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.15.3-Linux-x86_64/share/cmake-3.15/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/opt/cmake-3.15.3-Linux-x86_64/share/cmake-3.15/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/opt/cmake-3.15.3-Linux-x86_64/share/cmake-3.15/Modules/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_ac809
+/opt/cmake-3.15.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac809.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTC_ac809.dir/CheckFunctionExists.c.o  -o cmTC_ac809 -ltcmalloc 
+/usr/bin/ld: cannot find -ltcmalloc
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ac809.dir/build.make:87: cmTC_ac809] Error 1
+make[1]: Leaving directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ac809/fast] Error 2
+
+
+
+Determining if the F_FULLFSYNC exist failed with the following output:
+Change Dir: /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62d74/fast && /usr/bin/make -f CMakeFiles/cmTC_62d74.dir/build.make CMakeFiles/cmTC_62d74.dir/build
+make[1]: Entering directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62d74.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++11 -o CMakeFiles/cmTC_62d74.dir/CheckSymbolExists.cxx.o -c /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
+    8 |   return ((int*)(&F_FULLFSYNC))[argc];
+      |                   ^~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_62d74.dir/build.make:66: CMakeFiles/cmTC_62d74.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_62d74/fast] Error 2
+
+
+File /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
+Change Dir: /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac5ab/fast && /usr/bin/make -f CMakeFiles/cmTC_ac5ab.dir/build.make CMakeFiles/cmTC_ac5ab.dir/build
+make[1]: Entering directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac5ab.dir/src.cxx.o
+/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_CLANG_THREAD_SAFETY -Werror   -std=c++11 -o CMakeFiles/cmTC_ac5ab.dir/src.cxx.o -c /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/src.cxx
+/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/src.cxx:2:34: error: ‘lockable’ attribute directive ignored [-Werror=attributes]
+    2 | struct __attribute__((lockable)) Lock {
+      |                                  ^~~~
+/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/src.cxx:3:59: error: ‘exclusive_lock_function’ attribute directive ignored [-Werror=attributes]
+    3 |   void Acquire() __attribute__((exclusive_lock_function()));
+      |                                                           ^
+/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/src.cxx:4:51: error: ‘unlock_function’ attribute directive ignored [-Werror=attributes]
+    4 |   void Release() __attribute__((unlock_function()));
+      |                                                   ^
+/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/src.cxx:8:46: error: ‘guarded_by’ attribute directive ignored [-Werror=attributes]
+    8 |   int data_ __attribute__((guarded_by(lock_)));
+      |                                              ^
+cc1plus: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTC_ac5ab.dir/build.make:66: CMakeFiles/cmTC_ac5ab.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ac5ab/fast] Error 2
+
+
+Source file was:
+
+struct __attribute__((lockable)) Lock {
+  void Acquire() __attribute__((exclusive_lock_function()));
+  void Release() __attribute__((unlock_function()));
+};
+struct ThreadSafeType {
+  Lock lock_;
+  int data_ __attribute__((guarded_by(lock_)));
+};
+int main() { return 0; }
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0f769/fast && /usr/bin/make -f CMakeFiles/cmTC_0f769.dir/build.make CMakeFiles/cmTC_0f769.dir/build
+make[1]: Entering directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f769.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCMAKE_HAVE_LIBC_PTHREAD   -std=c11 -o CMakeFiles/cmTC_0f769.dir/src.c.o   -c /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0f769
+/opt/cmake-3.15.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f769.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_0f769.dir/src.c.o  -o cmTC_0f769 
+/usr/bin/ld: CMakeFiles/cmTC_0f769.dir/src.c.o: in function `main':
+src.c:(.text.main+0x34): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text.main+0x40): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text.main+0x51): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0f769.dir/build.make:87: cmTC_0f769] Error 1
+make[1]: Leaving directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0f769/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_832c6/fast && /usr/bin/make -f CMakeFiles/cmTC_832c6.dir/build.make CMakeFiles/cmTC_832c6.dir/build
+make[1]: Entering directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_832c6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_832c6.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.15.3-Linux-x86_64/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_832c6
+/opt/cmake-3.15.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_832c6.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_832c6.dir/CheckFunctionExists.c.o  -o cmTC_832c6 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_832c6.dir/build.make:87: cmTC_832c6] Error 1
+make[1]: Leaving directory '/home/reverts/Repos/rust_training/leveldb/target/debug/build/leveldb-sys-56cb13f779898ed0/out/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_832c6/fast] Error 2
+
+
+

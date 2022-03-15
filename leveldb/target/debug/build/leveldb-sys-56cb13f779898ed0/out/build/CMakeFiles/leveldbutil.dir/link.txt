@@ -1,0 +1,1 @@
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -g   CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o  -o leveldbutil libleveldb.a -lpthread 
