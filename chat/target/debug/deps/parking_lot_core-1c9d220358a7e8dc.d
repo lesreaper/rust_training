@@ -1,0 +1,11 @@
+/home/reverts/Repos/rust_training/chat/target/debug/deps/parking_lot_core-1c9d220358a7e8dc.rmeta: /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/lib.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/parking_lot.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/spinwait.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/thread_parker/mod.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/util.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/word_lock.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/thread_parker/linux.rs
+
+/home/reverts/Repos/rust_training/chat/target/debug/deps/parking_lot_core-1c9d220358a7e8dc.d: /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/lib.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/parking_lot.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/spinwait.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/thread_parker/mod.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/util.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/word_lock.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/thread_parker/linux.rs
+
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/lib.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/parking_lot.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/spinwait.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/thread_parker/mod.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/util.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/word_lock.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.1/src/thread_parker/linux.rs:

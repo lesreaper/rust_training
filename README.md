@@ -2,6 +2,8 @@
 
 Started 03/09/22
 
+Please send up any PR's for additional info or code!
+
 ### Code activities
 
 A list of all of the challenges [are here](https://ferrous-systems.github.io/teaching-material/), and the [full solutions](https://github.com/ferrous-systems/teaching-material/tree/master/assignments/solutions).
@@ -11,6 +13,7 @@ A list of all of the challenges [are here](https://ferrous-systems.github.io/tea
 - [Bulls and Cows - Day 3](https://ferrous-systems.github.io/teaching-material/assignments/bullsncows.html)
 - [Calculator - Day 4](https://ferrous-systems.github.io/teaching-material/assignments/calc.html)
 - [levelDB - Day 5](https://ferrous-systems.github.io/teaching-material/assignments/binding-to-leveldb.html)
+- [async chat server - Day 6](https://github.com/tokio-rs/tokio/blob/master/examples/chat.rs )
 
 ### Random Notes
 
@@ -22,3 +25,4 @@ We use the [rust-analyzer](https://rust-analyzer.github.io/ ) extension in VS Co
 - [Instructor Notes Day 3: Generics, Traits, and Docs](InstructorNotesDay3.md)
 - [Instructor Notes Day 4: Async, Lifetimes](InstructorNotesDay4.md)
 - [Instructor Notes Day 5: Macros, Using C with Rust, Benchmarking && Logger](InstructorNotesDay5.md)
+- [Instructor Notes Day 6: Multithread](InstructorNotesDay6.md)

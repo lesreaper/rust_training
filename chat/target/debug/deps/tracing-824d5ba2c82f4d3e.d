@@ -1,0 +1,13 @@
+/home/reverts/Repos/rust_training/chat/target/debug/deps/tracing-824d5ba2c82f4d3e.rmeta: /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/lib.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/macros.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/dispatcher.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/field.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/instrument.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/level_filters.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/span.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/stdlib.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/subscriber.rs
+
+/home/reverts/Repos/rust_training/chat/target/debug/deps/tracing-824d5ba2c82f4d3e.d: /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/lib.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/macros.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/dispatcher.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/field.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/instrument.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/level_filters.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/span.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/stdlib.rs /home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/subscriber.rs
+
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/lib.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/macros.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/dispatcher.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/field.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/instrument.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/level_filters.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/span.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/stdlib.rs:
+/home/reverts/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.32/src/subscriber.rs:
