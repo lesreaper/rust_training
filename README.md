@@ -4,6 +4,8 @@ Started 03/09/22
 
 Please send up any PR's for additional info or code!
 
+[Course Information and Outline](outline.md)
+
 ### Code activities
 
 A list of all of the challenges [are here](https://ferrous-systems.github.io/teaching-material/), and the [full solutions](https://github.com/ferrous-systems/teaching-material/tree/master/assignments/solutions).
